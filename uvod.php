@@ -26,4 +26,19 @@ function ispis(){
 }
 
 echo ispis();
+
+
+class Osoba{
+
+    public  $ime;
+    public  $brojGodina;
+
+    public function __construct($ime, $brojGodina)
+    {
+        $this->ime = $ime;
+        $this->brojGodina = $brojGodina;
+    }
+}
+
 ?>
+
